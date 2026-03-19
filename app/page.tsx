@@ -17,8 +17,8 @@ export default function Home() {
     <main className="relative isolate min-h-screen overflow-hidden bg-gradient-to-b from-[#F7FBFF] via-white to-[#EDF6FF] text-slate-900 font-sans">
       <div className="pointer-events-none absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,#D4E7FF_0%,#E8F4FF_25%,transparent_45%),radial-gradient(circle_at_80%_15%,#E3E4FF_0%,#F9FCFF_20%,transparent_40%)]" />
-        <div className="absolute -top-24 -left-10 h-[900px] w-[900px] rounded-full bg-[#0096FF] opacity-45 blur-[260px] mix-blend-multiply" />
-        <div className="absolute top-40 right-[-180px] h-[640px] w-[640px] rounded-full bg-[#0096FF] opacity-30 blur-[240px] mix-blend-multiply" />
+        <div className="absolute -top-24 -left-10 h-[760px] w-[760px] rounded-full bg-[#0096FF] opacity-22 blur-[320px]" />
+        <div className="absolute top-40 right-[-180px] h-[520px] w-[520px] rounded-full bg-[#0096FF] opacity-16 blur-[300px]" />
       </div>
       <div className="relative z-10">
         <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6 lg:px-10">
