@@ -1,0 +1,213 @@
+{
+  "version": "1.0.0",
+  "name": "WealthUp Design System",
+  "colors": {
+    "primary": {
+      "navy": {
+        "value": "#1E3A5F",
+        "description": "Primary navy blue for headers and primary text"
+      },
+      "blue": {
+        "value": "#2563EB",
+        "description": "Action blue for buttons and CTAs"
+      },
+      "teal": {
+        "value": "#06B6D4",
+        "description": "Accent teal for highlights and accents"
+      }
+    },
+    "neutrals": {
+      "white": {
+        "value": "#FFFFFF",
+        "description": "Pure white for cards and overlays"
+      },
+      "light": {
+        "value": "#F8FAFB",
+        "description": "Light gray for secondary backgrounds"
+      },
+      "gray": {
+        "value": "#6B7280",
+        "description": "Neutral gray for body text"
+      },
+      "dark": {
+        "value": "#3A4A5C",
+        "description": "Dark gray for section headers"
+      }
+    },
+    "backgrounds": {
+      "light-blue": {
+        "value": "#E0F2FE",
+        "description": "Light blue page background"
+      },
+      "pale": {
+        "value": "#F0FFFE",
+        "description": "Pale background for gradient bottom"
+      }
+    }
+  },
+  "gradients": {
+    "page": {
+      "type": "linear",
+      "direction": "180deg",
+      "stops": [
+        {
+          "color": "#E0F2FE",
+          "position": "0%"
+        },
+        {
+          "color": "#F0FFFE",
+          "position": "100%"
+        }
+      ],
+      "description": "Page background gradient from light blue to pale white"
+    },
+    "button": {
+      "type": "linear",
+      "direction": "135deg",
+      "stops": [
+        {
+          "color": "#1E3A5F",
+          "position": "0%"
+        },
+        {
+          "color": "#2563EB",
+          "position": "100%"
+        }
+      ],
+      "description": "Button gradient from navy to blue"
+    },
+    "text": {
+      "type": "linear",
+      "direction": "90deg",
+      "stops": [
+        {
+          "color": "#1E3A5F",
+          "position": "0%"
+        },
+        {
+          "color": "#2563EB",
+          "position": "100%"
+        }
+      ],
+      "description": "Text gradient for emphasis headers"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Plus Jakarta Sans",
+        "source": "Google Fonts",
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Inter",
+        "source": "Google Fonts",
+        "fallback": "sans-serif"
+      }
+    },
+    "scale": {
+      "h1": {
+        "size": "48px",
+        "lineHeight": "56px",
+        "weight": 700,
+        "letterSpacing": "-0.02em"
+      },
+      "h2": {
+        "size": "28px",
+        "lineHeight": "32px",
+        "weight": 700,
+        "letterSpacing": "-0.01em"
+      },
+      "h3": {
+        "size": "24px",
+        "lineHeight": "28px",
+        "weight": 600
+      },
+      "body": {
+        "size": "16px",
+        "lineHeight": "24px",
+        "weight": 400
+      },
+      "body-sm": {
+        "size": "14px",
+        "lineHeight": "20px",
+        "weight": 400
+      },
+      "label": {
+        "size": "14px",
+        "lineHeight": "20px",
+        "weight": 600
+      }
+    }
+  },
+  "elevation": {
+    "borderRadius": {
+      "card-lg": {
+        "value": "24px",
+        "description": "Large card corners"
+      },
+      "card-md": {
+        "value": "16px",
+        "description": "Medium component corners"
+      },
+      "card-sm": {
+        "value": "12px",
+        "description": "Small button/pill corners"
+      }
+    },
+    "shadows": {
+      "card": {
+        "value": "0 10px 25px rgba(0, 0, 0, 0.08)",
+        "description": "Standard card shadow"
+      },
+      "card-hover": {
+        "value": "0 15px 35px rgba(0, 0, 0, 0.12)",
+        "description": "Hover state shadow"
+      },
+      "glass": {
+        "value": "0 8px 32px rgba(31, 38, 135, 0.15)",
+        "description": "Glass morphism shadow effect"
+      }
+    }
+  },
+  "spacing": {
+    "section": {
+      "large": {
+        "value": "64px",
+        "description": "Large gap between sections"
+      },
+      "medium": {
+        "value": "48px",
+        "description": "Medium gap between sections"
+      }
+    },
+    "padding": {
+      "card-lg": {
+        "value": "32px",
+        "description": "Large card internal padding"
+      },
+      "card-md": {
+        "value": "24px",
+        "description": "Medium card internal padding"
+      },
+      "card-sm": {
+        "value": "16px",
+        "description": "Small card internal padding"
+      }
+    },
+    "grid": {
+      "gap": {
+        "value": "20px",
+        "description": "Internal grid gap for layouts"
+      }
+    }
+  },
+  "effects": {
+    "glass": {
+      "background": "rgba(255, 255, 255, 0.8)",
+      "backdrop": "blur(10px)",
+      "border": "1px solid rgba(255, 255, 255, 0.2)",
+      "description": "Glass morphism effect for overlays"
+    }
+  }
+}

@@ -20,7 +20,51 @@
 }
 
 body {
+  margin: 0;
+  min-height: 100vh;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.goal-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 14px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #4a90e2 13.46%, #294f7c 30%, #eaf4fb 30%);
+  outline: none;
+}
+
+.goal-range::-webkit-slider-runnable-track {
+  height: 14px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #4a90e2 13.46%, #294f7c 30%, #eaf4fb 30%);
+}
+
+.goal-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  background: #2f4d78;
+  border: 4px solid #6fa6ff;
+  box-shadow: 0 0 0 4px #d7e6ff;
+  margin-top: -7px;
+}
+
+.goal-range::-moz-range-track {
+  height: 14px;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #4a90e2 13.46%, #294f7c 30%, #eaf4fb 30%);
+}
+
+.goal-range::-moz-range-thumb {
+  width: 28px;
+  height: 28px;
+  border-radius: 9999px;
+  background: #2f4d78;
+  border: 4px solid #6fa6ff;
+  box-shadow: 0 0 0 4px #d7e6ff;
 }
